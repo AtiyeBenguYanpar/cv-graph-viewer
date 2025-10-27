@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AtiyeBenguYanpar/cv-graph-viewer.git/static/css/main.296943c0.css",
+    "main.js": "/AtiyeBenguYanpar/cv-graph-viewer.git/static/js/main.57502c7c.js",
+    "static/js/453.10789633.chunk.js": "/AtiyeBenguYanpar/cv-graph-viewer.git/static/js/453.10789633.chunk.js",
+    "index.html": "/AtiyeBenguYanpar/cv-graph-viewer.git/index.html",
+    "main.296943c0.css.map": "/AtiyeBenguYanpar/cv-graph-viewer.git/static/css/main.296943c0.css.map",
+    "main.57502c7c.js.map": "/AtiyeBenguYanpar/cv-graph-viewer.git/static/js/main.57502c7c.js.map",
+    "453.10789633.chunk.js.map": "/AtiyeBenguYanpar/cv-graph-viewer.git/static/js/453.10789633.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.296943c0.css",
+    "static/js/main.57502c7c.js"
+  ]
+}
