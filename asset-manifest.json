@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cv-graph-viewer/static/css/main.296943c0.css",
-    "main.js": "/cv-graph-viewer/static/js/main.c197a81c.js",
+    "main.js": "/cv-graph-viewer/static/js/main.b21226ad.js",
     "static/js/453.10789633.chunk.js": "/cv-graph-viewer/static/js/453.10789633.chunk.js",
     "index.html": "/cv-graph-viewer/index.html",
     "main.296943c0.css.map": "/cv-graph-viewer/static/css/main.296943c0.css.map",
-    "main.c197a81c.js.map": "/cv-graph-viewer/static/js/main.c197a81c.js.map",
+    "main.b21226ad.js.map": "/cv-graph-viewer/static/js/main.b21226ad.js.map",
     "453.10789633.chunk.js.map": "/cv-graph-viewer/static/js/453.10789633.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.296943c0.css",
-    "static/js/main.c197a81c.js"
+    "static/js/main.b21226ad.js"
   ]
 }
