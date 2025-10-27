@@ -1,668 +1,204 @@
 {
   "nodes": [
     {
-      "id": "person_main",
+      "id": "person_1",
       "label": "Ahmet Yılmaz",
       "type": "person",
-      "title": "Senior Full Stack Developer | 8 yıl deneyim",
-      "group": "person"
+      "title": "Senior Full Stack Developer",
+      "startDate": "2016-01-01",
+      "endDate": "2024-12-31"
     },
     {
       "id": "company_1",
       "label": "TechCorp A.Ş.",
       "type": "company",
-      "title": "2021-2024 | Senior Full Stack Developer",
-      "group": "company"
+      "title": "2021-2024 | Senior Developer",
+      "startDate": "2021-01-01",
+      "endDate": "2024-12-31"
+    },
+    {
+      "id": "position_1",
+      "label": "Senior Full Stack Developer",
+      "type": "position",
+      "title": "Senior Full Stack Developer",
+      "startDate": "2021-01-01",
+      "endDate": "2024-12-31"
     },
     {
       "id": "company_2",
-      "label": "StartupHub",
+      "label": "StartupCo",
       "type": "company",
-      "title": "2019-2021 | Frontend Developer",
-      "group": "company"
+      "title": "2018-2021 | Backend Developer",
+      "startDate": "2018-06-01",
+      "endDate": "2021-01-01"
+    },
+    {
+      "id": "position_2",
+      "label": "Backend Developer",
+      "type": "position",
+      "title": "Backend Developer",
+      "startDate": "2018-06-01",
+      "endDate": "2021-01-01"
     },
     {
       "id": "company_3",
-      "label": "Digital Solutions Ltd.",
+      "label": "WebAgency Ltd.",
       "type": "company",
-      "title": "2016-2019 | Junior Developer",
-      "group": "company"
+      "title": "2016-2018 | Junior Developer",
+      "startDate": "2016-03-01",
+      "endDate": "2018-05-31"
+    },
+    {
+      "id": "position_3",
+      "label": "Junior Developer",
+      "type": "position",
+      "title": "Junior Developer",
+      "startDate": "2016-03-01",
+      "endDate": "2018-05-31"
     },
     {
       "id": "edu_1",
-      "label": "İstanbul Teknik Üniversitesi",
+      "label": "İTÜ",
       "type": "education",
-      "title": "Bilgisayar Mühendisliği | 2012-2016",
-      "group": "education"
-    },
-    {
-      "id": "edu_2",
-      "label": "Yıldız Teknik Üniversitesi",
-      "type": "education",
-      "title": "Yazılım Mühendisliği Yüksek Lisans | 2017-2019",
-      "group": "education"
-    },
-    {
-      "id": "cert_1",
-      "label": "AWS Certified Developer",
-      "type": "certification",
-      "title": "Amazon Web Services | 2022",
-      "group": "certification"
-    },
-    {
-      "id": "cert_2",
-      "label": "Google Cloud Professional",
-      "type": "certification",
-      "title": "Google Cloud Platform | 2023",
-      "group": "certification"
-    },
-    {
-      "id": "cert_3",
-      "label": "Scrum Master Certificate",
-      "type": "certification",
-      "title": "Scrum Alliance | 2021",
-      "group": "certification"
-    },
-    {
-      "id": "skill_react",
-      "label": "React.js",
-      "type": "skill",
-      "title": "İleri seviye | 5 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_vue",
-      "label": "Vue.js",
-      "type": "skill",
-      "title": "Orta seviye | 2 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_node",
-      "label": "Node.js",
-      "type": "skill",
-      "title": "İleri seviye | 6 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_python",
-      "label": "Python",
-      "type": "skill",
-      "title": "İleri seviye | 4 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_django",
-      "label": "Django",
-      "type": "skill",
-      "title": "Orta seviye | 2 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_postgres",
-      "label": "PostgreSQL",
-      "type": "skill",
-      "title": "İleri seviye | 6 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_mongodb",
-      "label": "MongoDB",
-      "type": "skill",
-      "title": "İleri seviye | 5 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_redis",
-      "label": "Redis",
-      "type": "skill",
-      "title": "Orta seviye | 3 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_docker",
-      "label": "Docker",
-      "type": "skill",
-      "title": "İleri seviye | 4 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_kubernetes",
-      "label": "Kubernetes",
-      "type": "skill",
-      "title": "Orta seviye | 2 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_aws",
-      "label": "AWS",
-      "type": "skill",
-      "title": "İleri seviye | 3 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_gcp",
-      "label": "Google Cloud",
-      "type": "skill",
-      "title": "Orta seviye | 2 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_graphql",
-      "label": "GraphQL",
-      "type": "skill",
-      "title": "İleri seviye | 3 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_restapi",
-      "label": "REST API",
-      "type": "skill",
-      "title": "İleri seviye | 7 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_git",
-      "label": "Git",
-      "type": "skill",
-      "title": "İleri seviye | 8 yıl",
-      "group": "skill"
-    },
-    {
-      "id": "skill_agile",
-      "label": "Agile/Scrum",
-      "type": "skill",
-      "title": "İleri seviye | 5 yıl",
-      "group": "skill"
+      "title": "Bilgisayar Mühendisliği - Lisans",
+      "startDate": "2012-09-01",
+      "endDate": "2016-06-01"
     },
     {
       "id": "project_1",
       "label": "E-Ticaret Platformu",
       "type": "project",
-      "title": "TechCorp | React, Node.js, PostgreSQL | 2023-2024",
-      "group": "project"
+      "title": "Mikroservis Mimarisi ile E-Ticaret",
+      "startDate": "2022-01-01",
+      "endDate": "2023-06-01"
     },
     {
       "id": "project_2",
-      "label": "Fintech Dashboard",
+      "label": "Mobil Uygulama",
       "type": "project",
-      "title": "TechCorp | Vue.js, Python, MongoDB | 2022-2023",
-      "group": "project"
+      "title": "React Native ile iOS/Android App",
+      "startDate": "2019-03-01",
+      "endDate": "2020-12-01"
     },
     {
       "id": "project_3",
       "label": "CRM Sistemi",
       "type": "project",
-      "title": "TechCorp | React, Node.js, GraphQL | 2021-2022",
-      "group": "project"
+      "title": "Kurumsal CRM Geliştirme",
+      "startDate": "2017-01-01",
+      "endDate": "2018-03-01"
     },
     {
-      "id": "project_4",
-      "label": "Mobil Uygulama Backend",
-      "type": "project",
-      "title": "StartupHub | Node.js, MongoDB, AWS | 2020-2021",
-      "group": "project"
+      "id": "cert_1",
+      "label": "AWS Certified",
+      "type": "certification",
+      "title": "AWS Solutions Architect",
+      "startDate": "2023-05-01",
+      "endDate": "2023-05-01"
     },
     {
-      "id": "project_5",
-      "label": "İçerik Yönetim Sistemi",
-      "type": "project",
-      "title": "StartupHub | React, Django, PostgreSQL | 2019-2020",
-      "group": "project"
+      "id": "cert_2",
+      "label": "Google Cloud",
+      "type": "certification",
+      "title": "GCP Professional Developer",
+      "startDate": "2021-08-01",
+      "endDate": "2021-08-01"
     },
     {
-      "id": "project_6",
-      "label": "Kurumsal Web Sitesi",
-      "type": "project",
-      "title": "Digital Solutions | HTML, CSS, JavaScript | 2017-2018",
-      "group": "project"
+      "id": "cert_3",
+      "label": "React Advanced",
+      "type": "certification",
+      "title": "Advanced React & Redux",
+      "startDate": "2020-03-01",
+      "endDate": "2020-03-01"
     },
     {
-      "id": "lang_turkish",
+      "id": "skill_1",
+      "label": "React",
+      "type": "skill",
+      "title": "React.js - Expert",
+      "startDate": "2018-01-01",
+      "endDate": "2024-12-31"
+    },
+    {
+      "id": "skill_2",
+      "label": "Node.js",
+      "type": "skill",
+      "title": "Node.js - Expert",
+      "startDate": "2017-01-01",
+      "endDate": "2024-12-31"
+    },
+    {
+      "id": "skill_3",
+      "label": "Python",
+      "type": "skill",
+      "title": "Python - Advanced",
+      "startDate": "2019-01-01",
+      "endDate": "2024-12-31"
+    },
+    {
+      "id": "skill_4",
+      "label": "Docker",
+      "type": "skill",
+      "title": "Docker & Kubernetes",
+      "startDate": "2020-01-01",
+      "endDate": "2024-12-31"
+    },
+    {
+      "id": "skill_5",
+      "label": "AWS",
+      "type": "skill",
+      "title": "Amazon Web Services",
+      "startDate": "2021-01-01",
+      "endDate": "2024-12-31"
+    },
+    {
+      "id": "lang_1",
       "label": "Türkçe",
       "type": "language",
-      "title": "Ana dil",
-      "group": "language"
+      "title": "Ana Dil",
+      "startDate": "2016-01-01",
+      "endDate": "2024-12-31"
     },
     {
-      "id": "lang_english",
+      "id": "lang_2",
       "label": "İngilizce",
       "type": "language",
-      "title": "İleri seviye | TOEFL 95",
-      "group": "language"
-    },
-    {
-      "id": "lang_german",
-      "label": "Almanca",
-      "type": "language",
-      "title": "Orta seviye | B2",
-      "group": "language"
-    },
-    {
-      "id": "award_1",
-      "label": "Yılın Çalışanı",
-      "type": "award",
-      "title": "TechCorp | 2023",
-      "group": "award"
-    },
-    {
-      "id": "award_2",
-      "label": "Hackathon Birinciliği",
-      "type": "award",
-      "title": "İstanbul Tech Summit | 2021",
-      "group": "award"
-    },
-    {
-      "id": "volunteer_1",
-      "label": "Kod Kampı Eğitmeni",
-      "type": "volunteer",
-      "title": "Gençlere programlama eğitimi | 2020-2022",
-      "group": "volunteer"
-    },
-    {
-      "id": "interest_1",
-      "label": "Open Source Katkıları",
-      "type": "interest",
-      "title": "GitHub'da 150+ contribution",
-      "group": "interest"
-    },
-    {
-      "id": "interest_2",
-      "label": "Teknik Blog Yazarlığı",
-      "type": "interest",
-      "title": "Medium'da 25+ makale",
-      "group": "interest"
-    },
-    {
-      "id": "interest_3",
-      "label": "Konferans Konuşmacılığı",
-      "type": "interest",
-      "title": "3 ulusal konferansta sunum",
-      "group": "interest"
+      "title": "İleri Seviye",
+      "startDate": "2016-01-01",
+      "endDate": "2024-12-31"
     }
   ],
   "edges": [
-    {
-      "from": "person_main",
-      "to": "company_1",
-      "label": "Çalıştı",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "company_2",
-      "label": "Çalıştı",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "company_3",
-      "label": "Çalıştı",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "edu_1",
-      "label": "Mezun",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "edu_2",
-      "label": "Mezun",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "cert_1",
-      "label": "Sertifika",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "cert_2",
-      "label": "Sertifika",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "cert_3",
-      "label": "Sertifika",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "skill_react",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_vue",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_node",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_python",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_django",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_postgres",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_mongodb",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_redis",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_docker",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_kubernetes",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_aws",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_gcp",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_graphql",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_restapi",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_git",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "skill_agile",
-      "label": "Beceri",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "lang_turkish",
-      "label": "Dil",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "lang_english",
-      "label": "Dil",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "lang_german",
-      "label": "Dil",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "person_main",
-      "to": "award_1",
-      "label": "Ödül",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "award_2",
-      "label": "Ödül",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "volunteer_1",
-      "label": "Gönüllü",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "interest_1",
-      "label": "İlgi Alanı",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "interest_2",
-      "label": "İlgi Alanı",
-      "arrows": "to"
-    },
-    {
-      "from": "person_main",
-      "to": "interest_3",
-      "label": "İlgi Alanı",
-      "arrows": "to"
-    },
-    {
-      "from": "company_1",
-      "to": "project_1",
-      "label": "Proje",
-      "arrows": "to"
-    },
-    {
-      "from": "company_1",
-      "to": "project_2",
-      "label": "Proje",
-      "arrows": "to"
-    },
-    {
-      "from": "company_1",
-      "to": "project_3",
-      "label": "Proje",
-      "arrows": "to"
-    },
-    {
-      "from": "company_2",
-      "to": "project_4",
-      "label": "Proje",
-      "arrows": "to"
-    },
-    {
-      "from": "company_2",
-      "to": "project_5",
-      "label": "Proje",
-      "arrows": "to"
-    },
-    {
-      "from": "company_3",
-      "to": "project_6",
-      "label": "Proje",
-      "arrows": "to"
-    },
-    {
-      "from": "project_1",
-      "to": "skill_react",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_1",
-      "to": "skill_node",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_1",
-      "to": "skill_postgres",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_1",
-      "to": "skill_docker",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_1",
-      "to": "skill_aws",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_2",
-      "to": "skill_vue",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_2",
-      "to": "skill_python",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_2",
-      "to": "skill_mongodb",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_3",
-      "to": "skill_react",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_3",
-      "to": "skill_node",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_3",
-      "to": "skill_graphql",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_4",
-      "to": "skill_node",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_4",
-      "to": "skill_mongodb",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_4",
-      "to": "skill_aws",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_5",
-      "to": "skill_react",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_5",
-      "to": "skill_django",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "project_5",
-      "to": "skill_postgres",
-      "label": "Kullanılan",
-      "arrows": "to"
-    },
-    {
-      "from": "cert_1",
-      "to": "skill_aws",
-      "label": "İlgili",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "cert_2",
-      "to": "skill_gcp",
-      "label": "İlgili",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "cert_3",
-      "to": "skill_agile",
-      "label": "İlgili",
-      "arrows": "to",
-      "dashes": true
-    },
-    {
-      "from": "award_1",
-      "to": "company_1",
-      "label": "Aldığı Yer",
-      "arrows": "to"
-    }
+    {"from": "person_1", "to": "company_1"},
+    {"from": "company_1", "to": "position_1"},
+    {"from": "person_1", "to": "company_2"},
+    {"from": "company_2", "to": "position_2"},
+    {"from": "person_1", "to": "company_3"},
+    {"from": "company_3", "to": "position_3"},
+    {"from": "person_1", "to": "edu_1"},
+    {"from": "person_1", "to": "project_1"},
+    {"from": "company_1", "to": "project_1"},
+    {"from": "person_1", "to": "project_2"},
+    {"from": "company_2", "to": "project_2"},
+    {"from": "person_1", "to": "project_3"},
+    {"from": "company_3", "to": "project_3"},
+    {"from": "person_1", "to": "cert_1"},
+    {"from": "person_1", "to": "cert_2"},
+    {"from": "person_1", "to": "cert_3"},
+    {"from": "person_1", "to": "skill_1"},
+    {"from": "person_1", "to": "skill_2"},
+    {"from": "person_1", "to": "skill_3"},
+    {"from": "person_1", "to": "skill_4"},
+    {"from": "person_1", "to": "skill_5"},
+    {"from": "project_1", "to": "skill_1"},
+    {"from": "project_1", "to": "skill_2"},
+    {"from": "project_1", "to": "skill_4"},
+    {"from": "project_1", "to": "skill_5"},
+    {"from": "project_2", "to": "skill_1"},
+    {"from": "project_2", "to": "skill_2"},
+    {"from": "project_3", "to": "skill_2"},
+    {"from": "person_1", "to": "lang_1"},
+    {"from": "person_1", "to": "lang_2"}
   ]
 }
